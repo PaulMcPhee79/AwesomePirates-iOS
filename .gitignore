@@ -1,0 +1,15 @@
+*.zip
+*.dmg
+*.ipa
+*.jar
+*.png
+*.mp3
+*.ogg
+*.caf
+*.png
+*.xcarchive
+bin/
+assets/
+Archives/
+Backups/
+Share/

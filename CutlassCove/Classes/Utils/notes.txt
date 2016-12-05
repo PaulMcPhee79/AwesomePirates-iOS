@@ -1,0 +1,63 @@
+
+
+/*
+	TODO: 
+ 
+	1. NSZombieEnabled to find stray pointers etc. See www.cocoadev.com/index.pl?NSZombieEnabled.
+	2. Pre-iOS4 devices do not have multi-tasking and so we may need to save game state on app losing focus. Test this.
+	4. Need to test on devices running every non-point version of iOS: (3.0, 3.1, 4.0, 4.1, 4.2).
+	5. Read Apple Forum Stickies (Game Center etc).
+	6. Change NSLog's to DLog and ALog and asserts to ZAssert. See .pch file for details.
+	7. Do I need to worry about Reachability (i.e. not missing Network Alerts)? See iOS Reference Library sample Reachability App.
+	8. Test app under low-memory conditions using the Simulate Memory Warning command in the simulator.
+	9. pngcrush all atlases to reduce binary size (lossless compression).
+	10. Done
+	11. Save progress and scores on separate thread. Any saves requested when one is already in progress are added to a save queue and performed when the current
+		save callback reaches the main thread. This way we can use AES to encode hi scores and progress. Also, save in binary form (non human-readable) if possible.
+	12. Ensure only one view controller active at any one time to abide by Apple Guidelines.
+	13. Game Center will indicate that a score was successfully reported even though it wasn't if the connection is lost after the local player is authenticated. Do
+		we need to check for 3g or wifi connectivity as part of our Game Center isAuthenticated check?
+	14. See Cocoa with Love - Assign, retain,  copy: pitfalls (in comments) to ensure custom properties are valid.
+	15. Update player's ships/cannons if they have fewer than their Game Center achievements suggest (quasi online save method when switching devices).
+	15. Sparrow Edits:
+		- SPJuggler.m: mObjects = nil; in dealloc to prevent stray pointer call.
+		- 
+	16. Try Cochin-BoldItalic in place of MarkerFelt, provided it is available pre-ios4. It looks quite piratey in its lowercase form.
+	17. BUG: You can currently cheese same achievements like prohibition or sedition because GameCoder is not saving the state of having bought grog etc. So when
+		you load your game, you get all these achievements even though you haven't actually achieved them.
+	18. Get rid of "Close but no Cigar" achievement or fix for PrimeShips and Escorts.
+	19. Done
+	20. Done
+	21. Rename "Death from the Deep" to "Davy's Grip".
+	22. Somehow reference "St. Elmo's Fire". See: www.blindkat.hegewisch.net/pirates/Nautical_Myths.html
+	23. Done
+	24. Use this: SPTouch *touch =  [[event.touchesWithTarget:sprite] anyObject]; if (touch.phase == SPTouchPhaseBegan) else if (touch.phase == SPTouchPhaseMoved) ...
+	25. Wrap GameCoder.loadGameState in an exception handler so we cannot get into a situation where the application never loads properly upon a failed load (BAD!!!).
+	26. Add method to GameController to purge unused pLists from Globals in case of low memory warning.
+	27. Replace dispatch_async etc (Grand Central Dispatch) with [NSThread detachNewThreadSelector...].
+	28. Make tutorial start with entering the Cove explanation so that people don't skip it if they get tired of waiting for the tutorial to finish.
+	29. Make sure there are no endless loops looking for free spawn positions in ActorAi. Do tests that deliberately tie up positions and then force large spawns.
+	30. Play with mutiny and condition off so that I can reach a much higher level and can test conditions that would otherwise be impossible to test.
+	31. Encode all plists with AES encryption to deter casual cheaters.
+	32. Ensure SP_IS_FLOAT_EQUAL in SPDisplayObjectContainer's render method when checking for child alpha.
+	
+	UPDATES:
+	
+	1. Scenarios: Spanish Armada.
+	2. Multi-player: Town vs Ship. Town has wow-like action bar with ability to send out Navy Ships, Special Moves (Elite Armada) and fires town cannons.
+	3. Multi-player: Co-op on two different screens. Left screen tries to limit the number of Navy Ships and Pirate Ships (problems) from getting to the
+	   right screen. Right screen plays game as usual and they both share score.
+	4. Rogue Bar in Swindlers Alley. Can purchase/hire specialist crew members (i.e. Voodoo priestess, Master Cannoneer) who boost stats/effectiveness or
+	   offer other bonuses.
+	5. Treasure Island: Archipelago with X marks the spot treasure appearing randomly on islands. You must beat other Pirates to the treasure or sink them
+	   and reclaim it.
+	6. New Voodoo Spells: Giant Squid, Arctic Freeze, Tidal Wave, Acid Swell, Summon Neptune, Sea of Grog (boats turn in circles), Enveloping Slumber (line of black mist. Any
+	   that go through it have crew go to sleep. Lasts for a long time but only covers small area), Wandering Plague (infected ships seek out others to spread disease to, so
+	   it sort of becomes an ally before its crew dies), Moby Dick (whale swims around turning boats over).
+	   Ghostly Embrace: Spirits floating around turning ships into ghost ships that fight for you for a short period before disintegrating, granting you more infamy.
+	7. New Gadgets: Flux Capacitor, Toxic Dump (mist that kills any who pass through it), Big Magnet (sticks nearby ships to it).
+	8. New Single Player mode: Town on small island in the middle of the map. You control the cannon tower. You rotate the cannon with the "wheel" and aim the
+	   cannon trajectory as you normally would. You have to secure the safe transit for the merchant ships.
+ */
+ 
+ 

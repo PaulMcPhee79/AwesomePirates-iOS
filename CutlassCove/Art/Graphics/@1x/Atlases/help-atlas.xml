@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:fde9db03efbca8d10ecfdc97c1f82609$ -->
+<TextureAtlas imagePath="help-atlas.pvr.gz">
+    <SubTexture name="first-mate" x="2" y="125" width="56" height="80" frameX="-5" frameY="0" frameWidth="68" frameHeight="80"/>
+    <SubTexture name="msg-aye" x="201" y="17" width="22" height="16" frameX="-5" frameY="0" frameWidth="32" frameHeight="16"/>
+    <SubTexture name="msg-nay" x="228" y="2" width="22" height="16" frameX="-5" frameY="0" frameWidth="32" frameHeight="16"/>
+    <SubTexture name="msg-next" x="201" y="2" width="26" height="14" frameX="-3" frameY="0" frameWidth="32" frameHeight="16"/>
+    <SubTexture name="speech-bubble" x="2" y="2" width="198" height="122" frameX="-1" frameY="0" frameWidth="202" frameHeight="122"/>
+</TextureAtlas>

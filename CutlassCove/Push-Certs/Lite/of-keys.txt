@@ -1,0 +1,3 @@
+Client Application ID:  458062
+Product key:  L1Dq9jH5k6nrPPtNw7wcQ
+Product secret:  Qyjl9Bi76ceJGpA6y70ntheLqT75eetIhMuKGgFOra8

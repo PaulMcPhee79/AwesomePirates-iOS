@@ -1,0 +1,33 @@
+//
+// Prefix header for all source files of the 'Cutlass Cove' target in the 'Cutlass Cove' project
+// DLog,ALog,and ZAssert from www.cimgf.com/2010/05/02/my-current-prefix-pch-file/#more-977
+//
+
+/*
+#ifdef DEBUG
+#define DLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#define ALog(...) [[NSAssertionHandler currentHandler] handleFailureInFunction:[NSString stringWithCString:__PRETTY_FUNCTION__ encoding:NSUTF8StringEncoding] file:[NSString stringWithCString:__FILE__ encoding:NSUTF8StringEncoding] lineNumber:__LINE__ description:__VA_ARGS]
+#else
+#define DLog(...) do { } while (0)
+#ifndef NS_BLOCK_ASSERTIONS
+#define NS_BLOCK_ASSERTIONS
+#endif
+#define ALog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#endif
+
+#define ZAssert(condition, ...) do { if (!(condition)) { ALog(__VA_ARGS__); }} while(0)
+ */
+
+#define SAFE_FONT_NAME @"MarkerFelt-Thin"
+#define BITMAP_FONT_NAME @"CheekyMammoth"
+//#define CHEEKY_DEBUG @"CheekyDebug"
+//#define CC_THREADED_MEMORY_POOLING
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+    #import "Sparrow.h"
+    #import "ResManager.h"
+    #import "CCSettings.h"
+#endif

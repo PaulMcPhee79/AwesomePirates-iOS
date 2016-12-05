@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:5684fd5443e4a2c76842bcff36cf84a4$ -->
+<TextureAtlas imagePath="rate-atlas@2x.pvr.gz">
+    <SubTexture name="mascot-rate-no" x="2" y="173" width="176" height="158" frameX="-3" frameY="-12" frameWidth="180" frameHeight="180"/>
+    <SubTexture name="mascot-rate-yes" x="2" y="2" width="180" height="170" frameX="-8" frameY="-13" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="phat-haul" x="2" y="332" width="108" height="158" frameX="-25" frameY="0" frameWidth="160" frameHeight="160"/>
+    <SubTexture name="waitress" x="111" y="332" width="128" height="136" frameX="0" frameY="-4" frameWidth="128" frameHeight="144"/>
+</TextureAtlas>

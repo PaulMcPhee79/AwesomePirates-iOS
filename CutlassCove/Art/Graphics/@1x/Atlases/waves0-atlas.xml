@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:1797dd3791c92bcf04927d6ec1d08185$ -->
+<TextureAtlas imagePath="waves0-atlas.pvr.gz">
+    <SubTexture name="waves0" x="2" y="2" width="256" height="256"/>
+</TextureAtlas>

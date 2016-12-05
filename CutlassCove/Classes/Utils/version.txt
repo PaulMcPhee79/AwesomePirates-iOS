@@ -1,0 +1,19 @@
+
+List of all "committed" changes:
+
+2011/07/29
+- 
+
+2011/07/28
+- Changed all atlases to Gzipped PVR.
+- Changed venue/shop entrance delays to match shorter loading time of PVR textures.
+- Removed tavern-ambience from Tavern scene's SceneReqs. It is now played by the TavernVenue.
+- Made sure tweens were removed from a sound channel before its volume was eased to a new level, even if the ease duration is zero.
+- Backing up working copy before changing scene swap animation. The PVR textures don't create good SPRenderTextures, so we will change this process in next version.
+
+2011/07/27
+- Changed Splash scene/view to work with new logo that slides into place.
+- Added ambient sfx to splash scene.
+- Changed splash scene to use twinkle-splash.png so that a Preloaded Cove scene didn't clash with it and hold it in memory (through the texture manager).
+- Added Felix's Parcel-2 sounds.
+- CoveVenues can play their music and ambience at individual volumes.

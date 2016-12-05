@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:1e6cf0a6b9e33008c84a5f1db6dc7870$ -->
+<TextureAtlas imagePath="7-Man-o'-War-railing-atlas.pvr.gz">
+    <SubTexture name="7-Man-o'-War-railing" x="0" y="0" width="16" height="36" frameX="0" frameY="0" frameWidth="16" frameHeight="64"/>
+</TextureAtlas>

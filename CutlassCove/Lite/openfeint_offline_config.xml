@@ -1,0 +1,194 @@
+<resources>
+<game_profile_page_info>
+  <has_ipurchase>true</has_ipurchase>
+  <icon_url>http://cdn0.api.openfeint.com/uploads/application_descriptions/h_icons/2a/ff/6c/0b/82562/AppIconLite.png</icon_url>
+  <timestamp>2012-06-18 04:28:13</timestamp>
+  <is_owned_by_local_player>true</is_owned_by_local_player>
+  <has_chat_rooms>false</has_chat_rooms>
+  <has_challenges>true</has_challenges>
+  <suggestions_topic_id>1367684</suggestions_topic_id>
+  <has_achievements>true</has_achievements>
+  <name>Cutlass Cove Lite</name>
+  <has_featured_application>true</has_featured_application>
+  <id>458062</id>
+  <has_leaderboards>true</has_leaderboards>
+  <short_name>C. Cove Lite</short_name>
+</game_profile_page_info>
+<offline>
+<timestamp>2012-06-18 04:28:11</timestamp>
+<achievements>
+<achievement>
+<id>1551942</id>
+<title>Master Planker</title>
+<description>Make 500 rival pirates walk the plank.</description>
+<gamerscore>40</gamerscore>
+<icon_url>http://cdn0.api.openfeint.com/uploads/achievement_definitions/h_icons/de/1e/a9/20/1551942/captain-tier-complete.png</icon_url>
+<is_secret>false</is_secret>
+<is_unlocked>false</is_unlocked>
+<percent_complete></percent_complete>
+<unlocked_date></unlocked_date>
+<position>9</position>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<timestamp>2012-06-18 04:28:11</timestamp>
+</achievement>
+<achievement>
+<id>1551952</id>
+<title>Robbin' da 'hood</title>
+<description>Sink the Treasure Fleet 250 times.</description>
+<gamerscore>40</gamerscore>
+<icon_url>http://cdn0.api.openfeint.com/uploads/achievement_definitions/h_icons/84/50/d3/f4/1551952/captain-tier-complete.png</icon_url>
+<is_secret>false</is_secret>
+<is_unlocked>false</is_unlocked>
+<percent_complete></percent_complete>
+<unlocked_date></unlocked_date>
+<position>10</position>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<timestamp>2012-06-18 04:28:11</timestamp>
+</achievement>
+<achievement>
+<id>1551972</id>
+<title>Like a Record, Baby</title>
+<description>Sink 500 ships in Whirlpools.</description>
+<gamerscore>30</gamerscore>
+<icon_url>http://cdn0.api.openfeint.com/uploads/achievement_definitions/h_icons/b6/97/7c/a3/1551972/pirate-tier-complete.png</icon_url>
+<is_secret>false</is_secret>
+<is_unlocked>false</is_unlocked>
+<percent_complete></percent_complete>
+<unlocked_date></unlocked_date>
+<position>11</position>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<timestamp>2012-06-18 04:28:11</timestamp>
+</achievement>
+<achievement>
+<id>1563732</id>
+<title>Royal Flush</title>
+<description>Sink 3 navy ships in a Whirlpool.</description>
+<gamerscore>30</gamerscore>
+<icon_url>http://cdn0.api.openfeint.com/uploads/achievement_definitions/h_icons/ec/a2/07/d9/1563732/pirate-tier-complete.png</icon_url>
+<is_secret>false</is_secret>
+<is_unlocked>false</is_unlocked>
+<percent_complete></percent_complete>
+<unlocked_date></unlocked_date>
+<position>7</position>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<timestamp>2012-06-18 04:28:12</timestamp>
+</achievement>
+<achievement>
+<id>1563912</id>
+<title>Kaboom!</title>
+<description>Sink a dozen ships with a Powder Keg deployment.</description>
+<gamerscore>30</gamerscore>
+<icon_url>http://cdn0.api.openfeint.com/uploads/achievement_definitions/h_icons/5d/8a/ff/71/1563912/pirate-tier-complete.png</icon_url>
+<is_secret>false</is_secret>
+<is_unlocked>false</is_unlocked>
+<percent_complete></percent_complete>
+<unlocked_date></unlocked_date>
+<position>6</position>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<timestamp>2012-06-18 04:28:12</timestamp>
+</achievement>
+<achievement>
+<id>1563932</id>
+<title>There's No Place Like Home</title>
+<description>Spin an overboard sailor all the way to Kansas in a Tornado Storm.</description>
+<gamerscore>20</gamerscore>
+<icon_url>http://cdn0.api.openfeint.com/uploads/achievement_definitions/h_icons/4a/8a/bc/61/1563932/swabby-tier-complete.png</icon_url>
+<is_secret>false</is_secret>
+<is_unlocked>false</is_unlocked>
+<percent_complete></percent_complete>
+<unlocked_date></unlocked_date>
+<position>5</position>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<timestamp>2012-06-18 04:28:12</timestamp>
+</achievement>
+<achievement>
+<id>1563942</id>
+<title>Close But No Cigar</title>
+<description>Shoot a ship as it ferries into town.</description>
+<gamerscore>20</gamerscore>
+<icon_url>http://cdn0.api.openfeint.com/uploads/achievement_definitions/h_icons/cb/f9/56/66/1563942/swabby-tier-complete.png</icon_url>
+<is_secret>false</is_secret>
+<is_unlocked>false</is_unlocked>
+<percent_complete></percent_complete>
+<unlocked_date></unlocked_date>
+<position>4</position>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<timestamp>2012-06-18 04:28:13</timestamp>
+</achievement>
+<achievement>
+<id>1563962</id>
+<title>Smorgasbord</title>
+<description>Prepare a banquet of 20 tasty morsels for the local marine life.</description>
+<gamerscore>40</gamerscore>
+<icon_url>http://cdn0.api.openfeint.com/uploads/achievement_definitions/h_icons/3b/2d/41/3e/1563962/captain-tier-complete.png</icon_url>
+<is_secret>false</is_secret>
+<is_unlocked>false</is_unlocked>
+<percent_complete></percent_complete>
+<unlocked_date></unlocked_date>
+<position>3</position>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<timestamp>2012-06-18 04:28:13</timestamp>
+</achievement>
+<achievement>
+<id>1563972</id>
+<title>Deadeye Davy</title>
+<description>Shoot 100 ships without missing.</description>
+<gamerscore>40</gamerscore>
+<icon_url>http://cdn0.api.openfeint.com/uploads/achievement_definitions/h_icons/09/32/04/aa/1563972/captain-tier-complete.png</icon_url>
+<is_secret>false</is_secret>
+<is_unlocked>false</is_unlocked>
+<percent_complete></percent_complete>
+<unlocked_date></unlocked_date>
+<position>2</position>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<timestamp>2012-06-18 04:28:13</timestamp>
+</achievement>
+<achievement>
+<id>1563992</id>
+<title>Pot Shot</title>
+<description>Shoot a ship from afar.</description>
+<gamerscore>20</gamerscore>
+<icon_url>http://cdn0.api.openfeint.com/uploads/achievement_definitions/h_icons/bc/c2/e5/12/1563992/swabby-tier-complete.png</icon_url>
+<is_secret>false</is_secret>
+<is_unlocked>false</is_unlocked>
+<percent_complete></percent_complete>
+<unlocked_date></unlocked_date>
+<position>1</position>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<timestamp>2012-06-18 04:28:13</timestamp>
+</achievement>
+</achievements>
+<leaderboards>
+<leaderboard>
+<id>1093087</id>
+<name>Hall of Infamy</name>
+<active>true</active>
+<visible>true</visible>
+<allow_posting_lower_scores>false</allow_posting_lower_scores>
+<client_application_id>458062</client_application_id>
+<descending_sort_order>true</descending_sort_order>
+<created_at>2012-02-27 14:04:31 UTC</created_at>
+<updated_at>2012-02-27 14:04:31 UTC</updated_at>
+<start_version>0000.00.00</start_version>
+<end_version>9999.99.99</end_version>
+<position>0</position>
+<reached_at></reached_at>
+<display_text></display_text>
+<custom_data></custom_data>
+<score></score>
+<timestamp>2012-06-18 04:28:13</timestamp>
+</leaderboard>
+</leaderboards>
+</offline>
+
+</resources>

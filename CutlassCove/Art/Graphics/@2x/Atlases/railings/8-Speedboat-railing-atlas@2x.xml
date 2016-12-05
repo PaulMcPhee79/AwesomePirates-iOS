@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:df9850bcb3428f49fc49217287d3c3db$ -->
+<TextureAtlas imagePath="8-Speedboat-railing-atlas@2x.pvr.gz">
+    <SubTexture name="8-Speedboat-railing" x="0" y="0" width="64" height="62" frameX="0" frameY="2" frameWidth="64" frameHeight="128"/>
+</TextureAtlas>

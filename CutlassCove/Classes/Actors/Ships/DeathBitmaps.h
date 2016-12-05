@@ -1,0 +1,46 @@
+//
+//  DeathBitmaps.h
+//  CutlassCove
+//
+//  Created by Paul McPhee on 10/01/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#ifndef CutlassCove_DeathBitmaps_h
+#define CutlassCove_DeathBitmaps_h
+
+// Describes how a ship died
+#define DEATH_BITMAP_ALIVE 0x0UL
+#define DEATH_BITMAP_NPC_CANNON 0x1UL
+#define DEATH_BITMAP_TOWN_CANNON 0x2UL
+// Space for 1 more
+#define DEATH_BITMAP_NPC_MASK 0x7UL
+
+#define DEATH_BITMAP_PLAYER_CANNON 0x8UL
+
+// Voodoo
+#define DEATH_BITMAP_DEATH_FROM_THE_DEEP 0x10UL
+#define DEATH_BITMAP_WHIRLPOOL 0x20UL
+#define DEATH_BITMAP_GHOSTLY_TEMPEST 0x40UL
+#define DEATH_BITMAP_SEA_OF_LAVA 0x80UL
+#define DEATH_BITMAP_VOODOO (DEATH_BITMAP_DEATH_FROM_THE_DEEP | DEATH_BITMAP_WHIRLPOOL | DEATH_BITMAP_GHOSTLY_TEMPEST | DEATH_BITMAP_SEA_OF_LAVA)
+// Space for 9 more
+
+// Munitions/Gadgets
+#define DEATH_BITMAP_POWDER_KEG 0x10000UL
+#define DEATH_BITMAP_BRANDY_SLICK 0x20000UL
+#define DEATH_BITMAP_GADGET (DEATH_BITMAP_POWDER_KEG | DEATH_BITMAP_BRANDY_SLICK)
+// Space for 6 more
+
+// Ashes
+#define DEATH_BITMAP_ACID_POOL 0x1000000UL
+#define DEATH_BITMAP_MAGMA_POOL 0x2000000UL
+#define DEATH_BITMAP_ABYSSAL_SURGE 0x4000000UL
+// Space for 2 more
+
+// Misc
+#define DEATH_BITMAP_SHARK 0x20000000UL
+#define DEATH_BITMAP_DAMASCUS 0x40000000UL
+// Space for 2 more
+
+#endif
